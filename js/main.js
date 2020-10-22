@@ -1,7 +1,5 @@
 // Get Slider Items | Array.form [ES6 Feature]
-let sliderImages = Array.from(
-    document.querySelectorAll(`.slider-container img`)
-);
+let sliderImages = Array.from(document.querySelectorAll(`.slider-container img`));
 
 // Get Number Of Slides
 let slidesCount = sliderImages.length;
@@ -65,8 +63,7 @@ document.getElementById(`indicators`).appendChild(paginationElement);
 let paginationCreatedUl = document.getElementById(`pagination-ul`);
 
 // Get Pagination Items | Array.form [ES6 Feature]
-var paginationsBullets = Array.from(
-    document.querySelectorAll('#pagination-ul li')
+let paginationsBullets = Array.from(document.querySelectorAll('#pagination-ul li')
 );
 
 // Loop Through All Bullets Items
